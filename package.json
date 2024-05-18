@@ -2,5 +2,20 @@
   "devDependencies": {
     "cypress": "^10.3.0",
     "cypress-xpath": "^2.0.1"
-  }
+  },
+  "name": "pruebatec",
+  "version": "1.0.0",
+  "description": "PruebaTecnicaTalana",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e -b chrome"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "author": "CabreraFrancisco",
+  "license": "ISC"
 }
