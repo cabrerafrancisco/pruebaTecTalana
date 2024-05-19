@@ -45,4 +45,4 @@ You can select which test to run only by clicking on any of the listed tests.
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/cabrerafrancisco)
+- [@cabrerafrancisco](https://www.github.com/cabrerafrancisco)
