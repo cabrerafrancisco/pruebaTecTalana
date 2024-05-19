@@ -1,15 +1,14 @@
 describe('Product Categories', () => {
 
-    beforeEach(() => {
-      cy.visit('https://www.demoblaze.com/index.html');
-    })
+  beforeEach(() => {
+    cy.visit('/');
+  })
   it('Should display different product categories', () => {
     const categories = ['Phones', 'Laptops', 'Monitors'];
     categories.forEach((category) => {
       cy.contains(category).should('be.visible');
     });
   });
-
   it('Check cell phone products', () => {
     cy.get('.list-group-item').first().click();
     cy.get('#tbodyid').should('be.visible');
