@@ -1,7 +1,7 @@
 
 describe('Checkout and verify card', () => {
 
-    const { name, country, city, card, month, year } = require('../fixtures/data');
+    const { name, country, city, card, month, year } = require('../../../fixtures/data');
 
     it('Complete checkout process and verify correct card number', () => {
       cy.visit('https://www.demoblaze.com/index.html');
