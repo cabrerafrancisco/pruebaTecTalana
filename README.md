@@ -1,6 +1,6 @@
-# Talana Challenge 
+# Challenge test a WebShop 
 
-This repo contains a talana challenge with the e2e tests written in Cypress.
+This repo contains a challenge with the e2e tests written in Cypress.
 
 Contains four tests designed to apply automation and good development practices
 
